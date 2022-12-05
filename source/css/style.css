@@ -133,7 +133,7 @@ h6 {
   height: 75px;
 }
 #header .logo {
-  padding-left: 30px;
+  /* padding-left: 0px; */
   font-weight: 650;
   letter-spacing: 0.4px;
   font-family: "Poppins", sans-serif;
@@ -287,7 +287,7 @@ h6 {
   color: #fff;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 500px) {
   .mobile-nav-toggle {
     display: block;
   }
