@@ -133,7 +133,7 @@ h6 {
   height: 75px;
 }
 #header .logo {
-  /* padding-left: 0px; */
+  padding-left: 25px;
   font-weight: 650;
   letter-spacing: 0.4px;
   font-family: "Poppins", sans-serif;
