@@ -132,7 +132,7 @@ h6 {
   height: 75px;
 }
 #header .logo {
-  padding-left: 15px;
+  padding-left: 25px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -144,6 +144,12 @@ h6 {
 #header .logo a {
   font-size: 30px;
   color: #000000;
+}
+
+@media(min-width:150px)and (max-width:500px){
+  #header .logo a{
+    font-size: 16px;
+  }
 }
 
 #header .logo a span {
@@ -298,8 +304,6 @@ h6 {
     left: -100%;
   }
 }
-
-
 
 /**
 * Mobile Navigation 
@@ -459,7 +463,7 @@ h6 {
 #banner h2 {
   color: #000000;
   margin: 5px 0 30px 0;
-  font-size: 24px;
+  font-size: vw;
   font-weight: 400;
 }
 
@@ -956,7 +960,7 @@ section {
 .services .icon-box {
   text-align: center;
   border: 1px solid #fde2e2;
-  padding: 80px 20px;
+  padding: 50px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
   border-radius: 15px;
@@ -1396,6 +1400,13 @@ font-weight: 700;
 font-family: 'Poppins', sans-serif;
 margin-bottom: 20px;
 }
+@media(min-width:200) and (max-width:500){
+  .footer-social-icon span{
+    font-size: 3px;
+  }
+
+}
+
 .footer-social-icon a {
 color: rgb(0, 0, 0);
 font-size: 16px;
@@ -1422,7 +1433,6 @@ color: rgb(0, 0, 0);
 font-size: 20px;
 font-weight: 600;
 margin-bottom: 40px;
-padding-right: 50px;
 position: relative;
 }
 
@@ -1447,6 +1457,9 @@ color: #ff1414;
 .footer-widget ul li a {
 color: #000000;
 text-transform: capitalize;
+}
+.footer-widget-heading{
+  padding-left: 35px;
 }
 
 
@@ -1505,6 +1518,11 @@ color: #ff0000;
 .footer-menu li a {
 font-size: 14px;
 color: #000000;
+}
+.address address{
+  font-weight: bold;
+  margin-top: 150px;
+   text-align: end;
 }
 
 .copyright-area .row .d-flex {
